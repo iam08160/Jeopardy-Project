@@ -1,0 +1,48 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #04012A;
+    font-family: Noto Sans;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#welcome {
+    font-size: 4vw;
+    flex-wrap: wrap;
+    margin-bottom: 1em;
+    margin-top: 10vw;
+}
+
+.main-content {
+    align-items: center;
+}
+
+.landing-img {
+    width: 100%;
+}
+
+#play {
+    padding: 2vw 12vw 2vw 12vw;
+    border-radius: 6vw;
+    font-size: 2vw;
+    color: #04012A;
+    cursor: pointer;
+    margin-top: 1em;
+
+    
+}
+
+#site-info{
+position: absolute;
+bottom:0;
+font-size: 2.5vw;
+margin-bottom: 1vw;
+}
+
