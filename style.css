@@ -5,27 +5,32 @@
 }
 
 body {
-    background-color: #04012A;
+    background-color: rgb(2,61,163);
     font-family: Noto Sans;
     color: whitesmoke;
+}
+
+#welcome {
+    font-size: 6vw;
+    flex-wrap: wrap;
+    margin-bottom: 1em;
+    margin-top: 10vw;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-#welcome {
-    font-size: 4vw;
-    flex-wrap: wrap;
-    margin-bottom: 1em;
-    margin-top: 10vw;
-}
-
 .main-content {
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
 .landing-img {
-    width: 100%;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #play {
@@ -35,14 +40,126 @@ body {
     color: #04012A;
     cursor: pointer;
     margin-top: 1em;
-
-    
 }
 
 #site-info{
+display: flex;
+bottom: 0;
+height: 2.5rem;
 position: absolute;
-bottom:0;
-font-size: 2.5vw;
-margin-bottom: 1vw;
+margin-left: 16.5%
 }
 
+/** Round 1 **/
+
+.main-container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 6vw;
+    margin-top: 3vw;
+    margin-bottom: 2vw;
+}
+
+.player-turn {
+    font-size: 3vw;
+}
+
+.table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2vw;
+}
+
+.table-resize {
+    width: 80%;
+    height: 40vw;
+    border: 3px solid black;
+}
+
+table, th, td {
+    border: 3px solid black;
+}
+
+table {
+    text-align: center;
+}
+
+th {
+    padding: 1vw;
+    font-weight: 900;
+    font-size: xx-large;
+
+}
+
+td {
+    font-weight: 900;
+    font-size: 60px;
+    color: rgb(243,214,106);
+}
+
+.user-input1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2vw;
+}
+
+#input {
+    padding: 2vw 5vw 2vw 5vw;
+    color: whitesmoke;
+    text-align: center;
+    border-radius: 10px;
+    color: rgb(2,61,163);
+    font-size: larger;
+    font-weight: 800
+}
+
+#options {
+    display: flex;
+    justify-content: center;
+    gap: 5em;
+    margin-top: 2em;
+}
+
+.options {
+    padding: 1em 4em 1em 4em;
+    border-radius: 10px;
+    cursor: pointer;
+    color: black
+}
+
+#score {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 3em
+    
+}
+
+.score {
+    font-weight: 800;
+    font-size: 2vw
+}
+
+#next-round {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 12vw;
+}
+
+.next-round {
+    padding: 3em 3em 3em 3em;
+    border-radius: 10px;
+    ;
+}

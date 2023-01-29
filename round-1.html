@@ -8,23 +8,89 @@
     <title>Jeopardy</title>
   </head>
   <body>
+
     <div class="main-container1">
-      <div class="table1">
         <h1>Round One</h1>
-        <p class="player-turn">Player Turn</p>
-        <table>
-          <th class="category1"></th>
-          <th class="category1"></th>
-          <th class="category1"></th>
-          <th class="category1"></th>
-          <th class="category1"></th>
-          <th class="category1"></th>
+        <h2 class="player-turn">Player Turn</h2>
+    </div>
+
+      <div class="table">
+        <table class="table-resize">
+          <thead>
+            <tr>
+            <th>World Geography</th>
+            <th>Celebrity Rhyme Time</th>
+            <th>Potent Potables</th>
+            <th>American Literature</th>
+            <th>Before, During, and After</th>
+            <th>World Origins</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>$100</td>
+              <td>$100</td>
+              <td>$100</td>
+              <td>$100</td>
+              <td>$100</td>
+              <td>$100</td>
+            </tr>
+            <tr>
+              <td>$200</td>
+              <td>$200</td>
+              <td>$200</td>
+              <td>$200</td>
+              <td>$200</td>
+              <td>$200</td>
+            </tr>
+            <tr>
+              <td>$300</td>
+              <td>$300</td>
+              <td>$300</td>
+              <td>$300</td>
+              <td>$300</td>
+              <td>$300</td>
+            </tr>
+            <tr>
+              <td>$400</td>
+              <td>$400</td>
+              <td>$400</td>
+              <td>$400</td>
+              <td>$400</td>
+              <td>$400</td>
+            </tr>
+            <tr>
+              <td>$500</td>
+              <td>$500</td>
+              <td>$500</td>
+              <td>$500</td>
+              <td>$500</td>
+              <td>$500</td>
+            </tr>
+          </tbody>
         </table>
-        <input type="User Input" class="user-input1">
-        <a href="" class="buttons1"><button>Guess</button></a><a href="" class="buttons1"><Button>pass</Button></a>
+        </div>
+
+        <div class="input">
+          <input type="text" placeholder="User Input" id="input">
+        </div>
+
+          <div id="options">
+            <button class="options">Guess</button>
+            <button class="options">Pass</button>
+          </div>
+
+            <div id="score">
+              <p class="score">Player 1 Score: 0</p>
+              <p class="score">Player 2 Score: 0</p>
+            </div>
+
+              <div id="next-round">
+                <a href="./round-2.html" ><button class="next-round">Next Round</button></a>
+              </div>
+
+    </div>
     <!-- Do not change the script source. Allows import/export to work. -->
-      </div>
-</div>
   <script src="./scripts/index.js" type="module"></script>
   </body>
 </html>
